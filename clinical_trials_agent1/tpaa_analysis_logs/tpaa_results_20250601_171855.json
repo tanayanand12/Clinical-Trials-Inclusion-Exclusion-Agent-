@@ -1,0 +1,822 @@
+[
+  {
+    "timestamp": "2025-06-01T17:20:20.392089",
+    "query_number": 1,
+    "category": "Comparative Effectiveness",
+    "description": "Success rate comparison between access methods",
+    "query": "What is the success rate of transpedal access compared to retrograde tibial access in below-the-knee interventions?",
+    "success": true,
+    "error": null,
+    "processing_time": 84.53569865226746,
+    "studies_analyzed": 2,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe success rate of transpedal access compared to retrograde tibial access in below-the-knee interventions is not directly compared in the available clinical trials. However, individual success metrics such as technical success and primary patency are reported. NCT01609621 focuses on retrograde tibiopedal arterial access, while NCT05436405 explores trans-pedal access for endovascular revascularization.\n\n### Detailed Analysis\n**NCT01609621** and **NCT05436405** provide insights into different access techniques for treating infrainguinal artery occlusions and complex infra-popliteal lesions, respectively. Both studies employ a retrograde approach but differ slightly in procedural specifics and primary outcomes measured.\n\n### Study Characteristics\n- **Study Designs and Phases**: \n  - **NCT01609621** is an observational study focusing on the technical aspects and outcomes of tibiopedal access.\n  - **NCT05436405** is an interventional study evaluating trans-pedal access for endovascular revascularization. The study is non-randomized and was conducted at Mansoura University Hospital.\n\n- **Patient Populations and Eligibility Criteria**:\n  - **NCT01609621** includes patients with totally occluded infrainguinal arteries where previous antegrade approaches were unsuccessful.\n  - **NCT05436405** involves critically ischemic limbs where traditional antegrade approaches failed, targeting a broader range of vascular diseases.\n\n- **Intervention Details and Treatment Protocols**:\n  - **NCT01609621** uses a 21-gauge needle or micropuncture introducer set for retrograde arterial access.\n  - **NCT05436405** also uses a 21-gauge needle but includes additional techniques like fluoroscopy and road mapping to enhance access success.\n\n### Key Findings and Patterns\n- **Technical Success and Outcomes**:\n  - **NCT01609621** measures technical success post-procedure (1-4 hours).\n  - **NCT05436405** evaluates primary patency, amputation-free survival rates, and 30-day mortality/morbidity over a one-year period.\n\n- **Methodological Variations**:\n  - Both studies utilize similar equipment but differ in their procedural enhancements and outcome focus, reflecting variations in clinical objectives and patient selection criteria.\n\n### Practical Implications\n- **For Patients**: Patients with critical limb ischemia who have failed traditional treatments might consider participating in trials exploring innovative access techniques like those discussed.\n- **For Researchers**: These studies underscore the importance of developing and refining access techniques to improve outcomes in complex vascular conditions.\n\n### Data Limitations\n- Direct comparative data between transpedal and retrograde tibial access regarding overall success rates is lacking, necessitating more targeted research.\n- Long-term outcomes beyond the one-year mark are not extensively covered, which could be crucial for assessing the durability of these interventions.\n\nThis analysis provides a foundational understanding of the current research landscape regarding transpedal and retrograde tibial access techniques in lower limb interventions. Further studies are needed to directly compare these methods to fully understand their efficacy and safety profiles.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 15.66889762878418,
+      "total_tokens": 3611,
+      "prompt_tokens": 2967,
+      "completion_tokens": 644,
+      "studies_analyzed": 2,
+      "context_length": 7336,
+      "processing_time": 84.53569865226746,
+      "total_trials_fetched": 108,
+      "trials_processed": 108,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=retrograde%20tibial%20access&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "What is the success rate of transpedal access compared to retrograde tibial access in below-the-knee interventions?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 3,
+          "unique_studies_found": 108
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT01609621",
+        "title": "Tibiopedal Access for Crossing of Infrainguinal Artery Occlusions Interventions: DEVICE - Retrograde tibiopedal arterial access: Retrograde, percutaneous arterial access of vessels at or below the tibioperoneal trunk, using a 21 gage needle or micropuncture introducer set, to facilitate crossing and treatment (e.g., angioplasty, stenting, atherectomy) of occlusive arterial lesions in the lower limb. Primary Purpose: Intervention Model: Allocation:",
+        "similarity_score": 0.8570867510856324
+      },
+      {
+        "study_id": "NCT05436405",
+        "title": "Trans-pedal Access for Endovascular Revascularization in Complex Infra-popliteal Lesions in Critically Ischemic Limb Interventions: PROCEDURE - Trans-pedal access for endovascular revascularization in complex infra-popliteal lesions in critically ischemic limb: Briefly, conventional femoral access will be conducted in the traditional manner and involve the sheath while the catheter was introduced close to the proximal degree of lesion. Access to a pedal vessel: Using a 21-guage needle or by utilizing a micro puncture access set. Such vessel is recognized using the US probe. such approach performed in 54 patients.a fluoroscopy might enable a good possibility for efficient access. In addition, it was suggested to utilize micro-puncture needle supposed to have echogenic pattern as the tip of regular needle is very hard to visualize utilizing the duplex US probe. Also, use of straight fluoroscopy or road mapping may offer a better chance for successful access, this method is done in 31 cases . Another method is open method (cut down) on tibial vessels, this method is done in 11 cases. Primary Purpose: TREATMENT Intervention Model: SINGLE_GROUP Allocation: NA",
+        "similarity_score": 0.8521511315854522
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:21:45.897842",
+    "query_number": 2,
+    "category": "Equipment Analysis",
+    "description": "Sheath size comparison studies",
+    "query": "How many studies have compared 4Fr vs 6Fr sheath sizes for transpedal arterial access procedures?",
+    "success": true,
+    "error": null,
+    "processing_time": 85.22098970413208,
+    "studies_analyzed": 3,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe query regarding studies comparing 4Fr vs 6Fr sheath sizes for transpedal arterial access procedures does not directly align with the provided clinical trial data. However, there is a study [NCT05725226] that compares 4Fr and 6Fr sizes for Double J stents in urological procedures, which may offer some insights into sheath size comparisons in a different medical context. No trials specifically addressing transpedal arterial access procedures with these sheath sizes were identified.\n\n### Detailed Analysis\n**NCT05725226** is a randomized, parallel intervention trial focusing on the comparison of 6Fr vs 4Fr Double J stents in patients undergoing urological interventions for urinary tract stones. The study aims to evaluate the impact of stent size on patient symptoms and outcomes using the Ureteral Stent Symptom Questionnaire (USSQ). This trial was conducted at Tribhuvan University Teaching Hospital and involved detailed symptom assessments at multiple postoperative points.\n\n### Study Characteristics\n- **Study Designs and Methodologies**: NCT05725226 employs a randomized, parallel allocation model to compare two sizes of Double J stents. The primary purpose is treatment-focused.\n- **Patient Populations and Eligibility Criteria**: Adults over 18 years with sterile urine cultures prior to surgery were included, excluding those with bilateral DJ stenting, pregnancy, or complicated surgical histories.\n- **Intervention Details and Treatment Protocols**: Two intervention arms were used: one receiving a 6Fr x 26cm stent and the other a 4Fr x 26cm stent. Both groups were assessed for symptoms related to the stent placement.\n\n### Key Findings and Patterns\n- **Notable Trends**: The focus on stent size in urology suggests an ongoing interest in optimizing procedural components to reduce patient discomfort and improve outcomes, which could be analogous to considerations in choosing sheath sizes for arterial access.\n- **Variations in Approach**: The detailed symptom tracking and use of a validated questionnaire (USSQ) highlight a rigorous approach to understanding the implications of device size in medical interventions.\n\n### Practical Implications\n- **For Patients**: Patients involved in similar urological procedures might benefit from understanding how different stent sizes could affect their recovery and symptomatology.\n- **For Researchers**: This trial underscores the importance of device sizing in patient outcomes and could serve as a model for similar studies in other areas of interventional medicine, including vascular procedures involving sheath sizes.\n\n### Data Limitations\n- **Unavailable Information**: Specific data directly comparing 4Fr vs 6Fr sheath sizes for transpedal arterial access procedures was not found. The trials provided focused on urological stenting rather than vascular sheath use.\n- **Need for Additional Research**: Further studies specifically targeting sheath sizes in vascular procedures would be beneficial to directly answer the user's query and enhance understanding in this area.\n\nThis analysis is based on the available clinical trial data from ClinicalTrials.gov and does not include trials not listed or registered outside this database.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 15.618841886520386,
+      "total_tokens": 3982,
+      "prompt_tokens": 3358,
+      "completion_tokens": 624,
+      "studies_analyzed": 3,
+      "context_length": 7912,
+      "processing_time": 85.22098970413208,
+      "total_trials_fetched": 227,
+      "trials_processed": 227,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.intr=sheath%20sizes&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "How many studies have compared 4Fr vs 6Fr sheath sizes for transpedal arterial access procedures?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 4,
+          "unique_studies_found": 227
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT05725226",
+        "title": "Comparison Between 6Fr Vs 4Fr Double J Stent Interventions: DEVICE - Double J Stent 6Fr x 26cms: Surgery will be performed by expert Urologist. DEVICE - Double J Stent 4Fr x26cms: Surgery will be performed by expert Urologist. Primary Purpose: TREATMENT Intervention Model: PARALLEL Allocation: RANDOMIZED",
+        "similarity_score": 0.8691730510019819
+      },
+      {
+        "study_id": "NCT04632641",
+        "title": "Suture Closure AFtEr VEIN Access for Cardiac Procedures (SAFE-VEIN) Trial Detailed Description: This study will be a prospective, randomized study of patients who are undergoing one or more of the following procedures at ASLMC (Aurora St. Luke s Medical Center): Large-Bore Procedures >13 F 1. WATCHMAN device placement 2. Atrial fibrillation/flutter/SVT (supraventricular tachycardia) ablation using cryoballoon or laser balloon 3. Leadless pacemaker 4. Pulmonary embolism thrombectomy (Inari FlowTriever system) 5. MitraClip transcatheter mitral valve repair RANDOMIZATION: Patients will be randomized into one of two venous closure groups after a clean stick has been achieved with no complications: Large-bore (14F-25F) venous access group (1:1) Perclose ProGlide SMC Figure 8 suture",
+        "similarity_score": 0.8325952227901627
+      },
+      {
+        "study_id": "NCT02540382",
+        "title": "Comparison of Covered and Bare Stent in TIPS Detailed Description: From January 2006 to December 2010, the covered (experimental group) or bare stent (control group) was used in 131 and 127 patients, respectively. The recurrence rates of gastrointestinal bleeding and refractory hydrothorax/ascites, the cumulative restenosis rates in 1, 2, 3, 4, and 5-years, the incidence rate of hepatic encephalopathy, the rate of secondary interventional therapy, the 1, 2, 3, 4 and 5-year survival rates were compared between the experimental group and the control group.",
+        "similarity_score": 0.825738619329539
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:23:17.909267",
+    "query_number": 3,
+    "category": "Complications",
+    "description": "Arterial spasm incidence rates",
+    "query": "What are the reported rates of arterial spasm during transpedal catheterization across published trials?",
+    "success": true,
+    "error": null,
+    "processing_time": 91.99143671989441,
+    "studies_analyzed": 8,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe reported rates of arterial spasm during transpedal catheterization are primarily documented in trials focusing on radial artery spasm during transradial catheterization. These trials explore various interventions aimed at reducing the incidence of radial artery spasm, such as the use of spasmolytic drugs and topical vasodilators. Key findings indicate that interventions like papaverine, nitroglycerine, and local anesthesia are commonly tested for their efficacy in preventing or mitigating radial artery spasms.\n\n### Detailed Analysis\n- **NCT02343276**: This trial investigates the effect of spasmolytic drugs on pain and procedural outcomes in transradial catheterization. It does not specifically mention transpedal catheterization but provides relevant data on radial artery spasm prevention.\n- **NCT05861765** and **NCT01155167**: Both studies focus on the efficacy of papaverine and topical vasodilators, respectively, in preventing radial artery spasm during transradial procedures.\n- **NCT06912139**: Examines the role of topical nitroglycerine in preventing radial artery spasm, providing detailed outcomes such as the incidence of spasm defined by angiographic criteria.\n- **NCT03072394** and **NCT02577796**: These trials address the impact of local anesthesia and the relationship between radial artery spasm and subsequent occlusion, respectively.\n- **NCT02258620** and **NCT04030663**: Focus on different administration methods of nitrates and compare the effects of papaverine versus nitroglycerine on radial artery diameter and spasm.\n\n### Study Characteristics\n- **Study Designs**: The trials predominantly utilize randomized controlled designs to assess the efficacy of various interventions.\n- **Patient Populations**: Participants generally include patients undergoing transradial catheterization for diagnostic or therapeutic procedures.\n- **Intervention Details**: Interventions tested include spasmolytic drugs (e.g., papaverine, nitroglycerine), local anesthesia, and topical vasodilators.\n\n### Key Findings and Patterns\n- **Trends**: There is a consistent focus on minimizing radial artery spasm through pharmacological means, with several studies testing similar agents like papaverine and nitroglycerine.\n- **Methodological Variations**: Some trials measure spasm incidence directly through angiographic criteria, while others infer it from procedural outcomes or pain assessments.\n- **Geographic and Sponsor Types**: The trials are conducted in various global locations, often sponsored by academic institutions or hospitals, indicating a strong research interest in improving cardiovascular procedural outcomes.\n\n### Practical Implications\n- **For Patients**: Patients undergoing transradial catheterization might benefit from enrolling in trials testing effective spasm prevention methods to potentially reduce procedural discomfort and complications.\n- **For Researchers**: There is an opportunity to further explore and compare different spasmolytic interventions, possibly extending research to include direct comparisons in a systematic review or meta-analysis format.\n- **Current State of Research**: The field is actively exploring multiple pharmacological approaches to manage radial artery spasm, with ongoing trials likely to provide more definitive guidance on optimal strategies.\n\n### Data Limitations\n- **Incomplete Timeframes**: Many trials did not specify the timeframes for primary and secondary outcomes, which could affect the interpretation of results' immediacy and long-term impact.\n- **Specific Rates Unavailable**: Exact rates of arterial spasm during transpedal catheterization were not detailed, as the focus was more broadly on transradial access.\n\nThis analysis underscores the importance of targeted pharmacological interventions in managing radial artery spasm during catheterization procedures, with ongoing research needed to refine and optimize treatment protocols.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 22.95392918586731,
+      "total_tokens": 3708,
+      "prompt_tokens": 2956,
+      "completion_tokens": 752,
+      "studies_analyzed": 8,
+      "context_length": 4735,
+      "processing_time": 91.99143671989441,
+      "total_trials_fetched": 243,
+      "trials_processed": 243,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=arterial%20spasm&fields=NCTId,BriefTitle,OverallStatus,StartDate,CompletionDate,EnrollmentCount,PrimaryOutcomeMeasure,SecondaryOutcomeMeasure&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "What are the reported rates of arterial spasm during transpedal catheterization across published trials?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 4,
+          "unique_studies_found": 243
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT02343276",
+        "title": "Randomized Clinical Trial Comparing Transradial Catheterization With or Without Spasmolytic Drugs Primary Outcomes: Primary: Pain Assessment Using Visual Analogue Scale - (Timeframe: ) Secondary Outcomes: Secondary: Procedure Duration - (Timeframe: ) Secondary: Radiation Exposure - (Timeframe: )",
+        "similarity_score": 0.8773355543713441
+      },
+      {
+        "study_id": "NCT05861765",
+        "title": "The Efficacy of Papaverine to Prevent Radial Artery Spasm During Transradial Cerebral Angiography Primary Outcomes: Primary: The incidence of RAS - (Timeframe: ) Secondary Outcomes: Secondary: The pain intensity of the right forearm - (Timeframe: ) Secondary: The incidence of transradial approach failure - (Timeframe: )",
+        "similarity_score": 0.8669814893927723
+      },
+      {
+        "study_id": "NCT01155167",
+        "title": "Topical Radial Artery Vasodilation Primary Outcomes: Primary: Change in Radial Artery Diameter - (Timeframe: ) Secondary Outcomes: Secondary: Radial Artery Spasm During Catheterization - (Timeframe: ) Secondary: Radial Artery Patency - (Timeframe: )",
+        "similarity_score": 0.8664036860463336
+      },
+      {
+        "study_id": "NCT06912139",
+        "title": "Topical Nitroglycerine for Prevention of Radial Artery Spasm Primary Outcomes: Primary: Radial artery spasm as determined by angiography of radial artery; spasm being defined as >50% stenosis - (Timeframe: ) Secondary Outcomes: Secondary: Number of radial artery puncture attempts - (Timeframe: ) Secondary: Crossover to alternative puncture site - (Timeframe: ) Secondary: Radial artery diameter, absolute value - (Timeframe: ) Secondary: Patient discomfort measured using a Visual Analog Scale - (Timeframe: ) Secondary: Radial artery spasm: diffuse or localized - (Timeframe: ) Secondary: Contrast medium used during procedure - (Timeframe: ) Secondary: Invasive procedure duration - (Timeframe: ) Secondary: Hospital stay duration - (Timeframe: ) Secondary: Number of patients with radial artery patency at discharge - (Timeframe: ) Secondary: Local complications at puncture site - hematoma - (Timeframe: ) Secondary: Radial artery diameter indexed to body surface area - (Timeframe: )",
+        "similarity_score": 0.860155594602205
+      },
+      {
+        "study_id": "NCT03072394",
+        "title": "Local Anesthesia in Radial Catheterization Primary Outcomes: Primary: Visual Analog Scale of Pain Perception during sheath insertion - (Timeframe: ) Primary: Visual Analog Scale of Pain Perception after sheath removal - (Timeframe: ) Secondary Outcomes: Secondary: Puncture efficiency (number of puncture attempts) - (Timeframe: ) Secondary: Radial artery spasm - (Timeframe: )",
+        "similarity_score": 0.859562279228895
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:24:35.922734",
+    "query_number": 4,
+    "category": "Closure Techniques",
+    "description": "Closure device safety comparison",
+    "query": "Which closure devices (Angio-Seal, Mynx, manual compression) show the lowest complication rates in transpedal access studies?",
+    "success": true,
+    "error": null,
+    "processing_time": 77.9954309463501,
+    "studies_analyzed": 6,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe clinical trials reviewed provide comparative data on the safety and efficacy of various vascular closure devices, including Angio-Seal, Mynx, and manual compression methods. Notably, studies such as NCT00998023 and NCT05554471 focus on comparing these devices in terms of complication rates and other outcomes. The data suggests variability in outcomes based on the device used, with specific trials like NCT01669382 and NCT05554471 providing direct comparisons.\n\n### Detailed Analysis\n- **NCT00998023** compares the Mynx and AngioSeal devices directly, focusing on patient comfort but also implicitly considering safety through patient-reported outcomes.\n- **NCT02438475** and **NCT05554471** evaluate the Mynx device against manual compression, with an emphasis on safety endpoints such as major complications and effectiveness endpoints like time to ambulation and hemostasis.\n- **NCT01669382** contrasts Angio-Seal with Exo-Seal, assessing primary outcomes including bleeding, need for vascular surgery, and device failure.\n\n### Study Characteristics\n- **Designs and Methodologies**: Most studies are interventional with random allocation. They vary from comparisons between two devices to evaluations against manual compression.\n- **Patient Populations**: Participants typically include those undergoing diagnostic or interventional endovascular procedures. Eligibility often hinges on the procedural specifics, such as the size of the sheath used.\n- **Interventions**: Devices like Mynx and Angio-Seal are tested for their ability to seal vascular access sites, with comparisons often made to manual compression or other devices.\n\n### Key Findings and Patterns\n- **Safety and Efficacy**: NCT05554471 specifically notes major complications within 30 days as a primary safety endpoint, which is crucial for assessing the relative safety of closure devices.\n- **Time to Hemostasis and Ambulation**: Several studies, including NCT02438475 and NCT05554471, highlight these metrics, indicating a focus on not only the safety but also the efficiency of closure devices in clinical settings.\n- **Device Comparison**: Direct comparisons like those in NCT00998023 and NCT01669382 provide valuable data on the relative performance of different closure devices.\n\n### Practical Implications\n- **For Patients**: Patients seeking information on the safest vascular closure method can reference these studies to understand potential risks and benefits associated with each device.\n- **For Researchers**: These findings highlight the importance of considering both safety and efficiency in vascular closure devices, suggesting areas for further comparative research.\n- **Current Research State**: The field shows a robust engagement in optimizing post-procedural outcomes through advanced closure devices, with ongoing evaluations of new technologies.\n\n### Data Limitations\n- **Incomplete Data**: Some trials did not provide detailed timeframes for their primary outcomes, which can limit the understanding of the long-term implications of each device.\n- **Comparative Data**: While some studies offer direct comparisons between devices, comprehensive multi-device comparative trials are limited, which could enhance understanding of the best practices in vascular closure.\n\nThis analysis provides a foundation for understanding the current landscape of research on vascular closure devices, highlighting both the progress made and areas where further study is needed.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 16.280482292175293,
+      "total_tokens": 3307,
+      "prompt_tokens": 2651,
+      "completion_tokens": 656,
+      "studies_analyzed": 6,
+      "context_length": 4658,
+      "processing_time": 77.9954309463501,
+      "total_trials_fetched": 198,
+      "trials_processed": 198,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.intr=Mynx&fields=NCTId,BriefTitle,Condition,Intervention,OverallStatus,LocationCountry,PrimaryOutcomeMeasure&countTotal=true&pageSize=100",
+        "query_analysis": {
+          "original_query": "Which closure devices (Angio-Seal, Mynx, manual compression) show the lowest complication rates in transpedal access studies?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 3,
+          "unique_studies_found": 198
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT00998023",
+        "title": "Patient Comfort With Vascular Closure Interventions: DEVICE - Mynx Vascular Closure Device: Comparison of two different vascular closure devices. DEVICE - AngioSeal Vascular Closure Device: Comparison of two different vascular closure devices. Primary Purpose: Intervention Model: Allocation:",
+        "similarity_score": 0.8887267884163337
+      },
+      {
+        "study_id": "NCT02438475",
+        "title": "The Safety and Efficacy of an Extravascular, Water-Soluble Sealant for Venous Access-Site Closure Interventions: DEVICE - Mynx Vascular Closure System: MynxGrip is being used to seal femoral vein access sites while reducing times to hemostasis and ambulation in patients who have undergone diagnostic or interventional endovascular procedures utilizing a 5F, 6F or 7F procedural sheath. OTHER - Manual Compression: manual pressure applied to your groin for approximately 5-10 minutes Primary Purpose: Intervention Model: Allocation:",
+        "similarity_score": 0.878795738399365
+      },
+      {
+        "study_id": "NCT05554471",
+        "title": "Evaluation of Safety and Efficacy of the Mynx Control Venous Vascular Closure Device 6F-12F vs Manual Compression Primary Outcomes: Primary: Primary Safety Endpoint: Major Complications of the Target Limb Access Site Within 30 Days - (Timeframe: ) Primary: Primary Effectiveness Endpoint: Time to Ambulation - (Timeframe: ) Primary: Primary Effectiveness Endpoint: Time to Hemostasis - (Timeframe: ) Secondary Outcomes:",
+        "similarity_score": 0.8777143512562446
+      },
+      {
+        "study_id": "NCT01669382",
+        "title": "Angio-Seal vs. Exo-Seal for Closure of Arterial Puncture Sites Interventions: DEVICE - percutaneous coronary intervention: after the intervention patients are randomized to either Angio Seal or Exo Seal Primary Purpose: Intervention Model: Allocation:",
+        "similarity_score": 0.8520187170183038
+      },
+      {
+        "study_id": "NCT01100476",
+        "title": "Mynx M5 One Hour Ambulation Study Interventions: DEVICE - Endovascular Diagnostic Procedures: Patients underwent a percutaneous diagnostic procedure utilizing a 5F procedural sheath in the common femoral artery Primary Purpose: Intervention Model: Allocation:",
+        "similarity_score": 0.8359010923070933
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:24:48.262265",
+    "query_number": 5,
+    "category": "Patient Demographics",
+    "description": "CKD patient inclusion rates",
+    "query": "What percentage of TPAA studies include patients with chronic kidney disease stages 4-5?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:26:14.146882",
+    "query_number": 6,
+    "category": "Patient Selection",
+    "description": "Calcified vessel patient enrollment",
+    "query": "How many trials have specifically enrolled patients with severely calcified tibial vessels for transpedal intervention?",
+    "success": true,
+    "error": null,
+    "processing_time": 85.8492443561554,
+    "studies_analyzed": 8,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nNo clinical trials were specifically identified that enrolled patients with severely calcified tibial vessels for transpedal intervention. The trials reviewed primarily focused on broader aspects of peripheral artery disease and interventions without specific emphasis on severe calcification in tibial vessels.\n\n### Detailed Analysis\nThe clinical trials analyzed, such as NCT00676494 and NCT02230527, involve interventions in peripheral artery disease (PAD) and critical limb ischemia (CLI), respectively. However, these studies do not explicitly mention the enrollment of patients with severely calcified tibial vessels for transpedal interventions.\n\n- **NCT00676494**: Focuses on the safety and performance of the Pathway PV Atherectomy System in peripheral vasculature but does not specify the severity of calcification in tibial vessels.\n- **NCT02230527**: Investigates the effects of ticagrelor on tissue perfusion in CLI but is centered around general arterial interventions without specific reference to severe tibial calcification.\n\n### Study Characteristics\n- **Study Designs**: The trials include interventional studies with designs ranging from single-arm, multi-center (NCT00676494) to randomized controlled trials (NCT02230527).\n- **Phases**: Varying phases are noted, with NCT02230527 covering both Phase 2 and Phase 3.\n- **Methodologies**: Methods include the use of high-resolution imaging for bone and vascular assessments and clinical evaluations of drug efficacy in improving perfusion and reducing adverse events.\n\n### Key Findings and Patterns\n- **Peripheral Artery Disease Focus**: Most studies are geared towards broader PAD and CLI without isolating cases of severe tibial calcification.\n- **Intervention Techniques**: Various intervention techniques are explored, from atherectomy devices to pharmacological interventions, indicating a diverse approach to managing PAD and CLI.\n\n### Practical Implications\n- **For Patients**: Patients with severely calcified tibial vessels might find limited specific trials but could consider broader PAD or CLI studies that might indirectly address their condition.\n- **For Researchers**: There is a potential research gap in targeted studies on transpedal interventions specifically for severely calcified tibial vessels, suggesting an opportunity for future clinical trials.\n\n### Data Limitations\n- **Specificity in Patient Selection**: The trials lack specific details on the enrollment of patients with severely calcified tibial vessels, which limits direct applicability to the user's query.\n- **Detail on Intervention Specificity**: While interventions are well-documented, the specifics regarding their application to severely calcified tibial vessels are not detailed.\n\nThis analysis underscores the need for more targeted research in the area of transpedal interventions for patients with severe tibial calcification.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 13.923604488372803,
+      "total_tokens": 4056,
+      "prompt_tokens": 3500,
+      "completion_tokens": 556,
+      "studies_analyzed": 8,
+      "context_length": 7136,
+      "processing_time": 85.8492443561554,
+      "total_trials_fetched": 243,
+      "trials_processed": 243,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=calcified%20tibial%20vessels&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "How many trials have specifically enrolled patients with severely calcified tibial vessels for transpedal intervention?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 4,
+          "unique_studies_found": 243
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT01444378",
+        "title": "Unknown Title",
+        "similarity_score": 0.843606275505818
+      },
+      {
+        "study_id": "NCT06112171",
+        "title": "Unknown Title",
+        "similarity_score": 0.8401343871643965
+      },
+      {
+        "study_id": "NCT00676494",
+        "title": "The Pathway PVD Study for Percutaneous Peripheral Vascular Interventions Primary Outcomes: Primary: Major Adverse Events (MAEs) Within 30 Days - Major adverse events (MAEs) are any death, target vessel revascularization (TVR), target lesion revascularization (TLR), myocardial infarction (MI), or amputation of the treated limb that occurred within 30 days of the index procedure. (Timeframe: 30 days) Secondary Outcomes: Secondary: Average Rutherford Classification Score at 6 Months - Rutherford Classification measures lower limb peripheral arterial disease (PAD) by evaluating and rating symptoms. Score: 0 (no symptoms or discomfort in leg) to 6 (Tissue loss or gangrene in leg) (Timeframe: 6 months) Secondary: Average Ankle Brachial Index (ABI) at 6 Months - Ankle Brachial Index (ABI) is the ratio of the blood pressure in the lower legs to the blood pressure in the arms. Compared to the arm, lower blood pressure in the leg is a symptom of peripheral artery disease (PAD). Range: Normal arteries (1.0 - 1.2) to Severe arterial disease (under 0.5) (Timeframe: 6 months) Secondary: Freedom From Target Lesion Revascularization (TLR) at 6 Months - Number of patients that did not require target lesion revascularization 6 months after index procedure. (Timeframe: 6 months)",
+        "similarity_score": 0.8399713241489488
+      },
+      {
+        "study_id": "NCT04525794",
+        "title": "Unknown Title",
+        "similarity_score": 0.8383428220897914
+      },
+      {
+        "study_id": "NCT02230527",
+        "title": "Establishing the Microcirculatory Effects of Ticagrelor on Tissue Perfusion in Critical Limb Ischemia Detailed Description: Enrollment into the study will require severe symptomatic CLI without wounds (Rutherford Stage IV) or CLI with concomitant vascular insufficiency wounds (Rutherford Stage V-VI PAD). Potential participants will be identified and screened prior to discharge or at the time of the first out-patient visit (within 2 weeks after discharge) after a percutaneous lower extremity arterial angiography with arterial intervention (stent or balloon angioplasty) for the presence of lower extremity vascular insufficiency. Participants will be classified as Rutherford Class IV - VI (with or without ulcerations). A total of 60 patients will be randomized into 2 treatment groups in a 1:1 ratio (ticagrelor to clopidogrel). Patients are placed on clopidogrel after their arterial intervention per standard of care.",
+        "similarity_score": 0.83723083471383
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:26:24.511924",
+    "query_number": 7,
+    "category": "Hemodynamics",
+    "description": "ABI ranges in study populations",
+    "query": "What is the average ankle-brachial index (ABI) range in patients enrolled in transpedal access studies?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:27:53.372832",
+    "query_number": 8,
+    "category": "Diabetes Outcomes",
+    "description": "Diabetic vs non-diabetic comparisons",
+    "query": "How many studies have compared outcomes in diabetic vs non-diabetic patients undergoing transpedal procedures?",
+    "success": true,
+    "error": null,
+    "processing_time": 88.84280180931091,
+    "studies_analyzed": 6,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe query regarding studies comparing outcomes in diabetic vs non-diabetic patients undergoing transpedal procedures does not directly match with the provided clinical trial data. However, the trials listed primarily focus on interventions and outcomes related to diabetic foot ulcers and diabetes management, without a direct comparison to non-diabetic patient outcomes in transpedal procedures.\n\n### Detailed Analysis\n- **NCT04176120**: Focuses on the use of Cryopreserved Human Umbilical Cord (TTAX01) for treating complex non-healing diabetic foot ulcers. Key outcomes include wound healing time, re-ulceration rates, limb preservation, and patient-reported mobility.\n- **NCT01657227**: Centers on tertiary prevention in Type II Diabetes Mellitus, assessing changes in various health metrics (e.g., HbA1c, weight, cholesterol levels) over time.\n- **NCT01710774**: Investigates telemedicine follow-up in primary health care for managing diabetes-related foot ulcers, with outcomes including healing time, number of consultations, and patient-reported stress and satisfaction.\n\n### Study Characteristics\n- **Designs and Methodologies**: All studies employ longitudinal follow-up with various outcome measures assessed at multiple time points. NCT04176120 and NCT01710774 specifically address wound healing in diabetic foot ulcers, while NCT01657227 focuses on broader diabetes management outcomes.\n- **Patient Populations**: All studies focus on patients with diabetes, particularly those with complications such as foot ulcers.\n- **Interventions**: NCT04176120 uses a biological product for wound healing, NCT01710774 utilizes a telemedicine approach, and NCT01657227 involves comprehensive diabetes care management.\n\n### Key Findings and Patterns\n- **Focus on Diabetes Complications**: There is a clear focus on managing complications associated with diabetes, such as foot ulcers, across the trials.\n- **Variety of Outcomes Measured**: Studies measure clinical outcomes (e.g., wound healing, limb preservation), biochemical markers (e.g., HbA1c), and patient-reported outcomes (e.g., quality of life, stress).\n- **Use of Innovative Treatments and Technologies**: The trials explore innovative approaches like cryopreserved human umbilical cord products and telemedicine.\n\n### Practical Implications\n- **For Patients**: Patients with diabetes, especially those with foot ulcers or at risk of complications, may find relevant treatment options and management strategies within these trials.\n- **For Researchers**: These studies highlight the importance of multifaceted approaches in diabetes care, suggesting areas for further research in complication prevention and management.\n\n### Data Limitations\n- **Lack of Non-Diabetic Comparisons**: None of the trials directly compare diabetic and non-diabetic populations in the context of transpedal procedures.\n- **Specificity of Interventions**: The interventions are highly specific to diabetes management and may not be generalizable to broader patient populations without diabetes.\n\nThis analysis is based on the provided clinical trial data from ClinicalTrials.gov. Further research may be required to find studies specifically comparing diabetic and non-diabetic outcomes in transpedal procedures.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 16.75824213027954,
+      "total_tokens": 4899,
+      "prompt_tokens": 4262,
+      "completion_tokens": 637,
+      "studies_analyzed": 6,
+      "context_length": 7149,
+      "processing_time": 88.84280180931091,
+      "total_trials_fetched": 54,
+      "trials_processed": 54,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=diabetes%20AND%20non-diabetic%20AND%20vascular%20procedures&pageSize=50&countTotal=true",
+        "query_analysis": {
+          "original_query": "How many studies have compared outcomes in diabetic vs non-diabetic patients undergoing transpedal procedures?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 2,
+          "unique_studies_found": 54
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT04176120",
+        "title": "Cryopreserved Human Umbilical Cord (TTAX01) for Late Stage, Complex Non-healing Diabetic Foot Ulcers (AMBULATE DFU) Primary Outcomes: Primary: Complete wound healing - Time from baseline to initial observation of healing, where healing has been confirmed at two consecutive visits each two weeks apart. (Timeframe: over 26 weeks) Secondary Outcomes: Secondary: Complete wound healing - Proportion of wound healed (Timeframe: by Week 50) Secondary: Wound durability - Proportion of wounds that re-ulcerate (Timeframe: by Week 50) Secondary: Limb preservation - proportion of minor and major amputations following the initial procedure (Timeframe: by Week 50) Secondary: Patient-reported mobility - compare total score on PROMIS Health Organization Neuro-QoL lower extremity function ; scale from 1-5; higher scores indicate better self-reported health (Timeframe: Baseline to End of Study (approximately 50 weeks))",
+        "similarity_score": 0.8229252450632022
+      },
+      {
+        "study_id": "NCT01657227",
+        "title": "Tertiary Prevention in Type II Diabetes Mellitus in Canary Islands Study Primary Outcomes: Primary: Change in Glycosylated hemoglobin (HbA1c) - Change in Glycosylated hemoglobin from baseline to 12 months (Timeframe: Baseline and 12 months) Secondary Outcomes: Secondary: Change in Glycosylated hemoglobin (HbA1c) - (Timeframe: Baseline and 3, 6, 18 and 24 months) Secondary: Change in Weight - (Timeframe: Baseline and 3, 6, 12, 18 and 24 months) Secondary: Change in Waist circumference - (Timeframe: Baseline and 3, 6, 12, 18 and 24 months) Secondary: Change in Body Mass Index (BMI) - (Timeframe: Baseline and 3, 6,12, 18 and 24m) Secondary: Change in Basal glucose - (Timeframe: Baseline and 3, 6, 12, 18 and 24 months) Secondary: Change in Total cholesterol level - (Timeframe: Baseline and 6, 12 and 24 months) Secondary: Change in HDL level - (Timeframe: Baseline and 6, 12 and 24 months) Secondary: Change in LDL level - (Timeframe: Baseline and 6, 12 and 24 months) Secondary: Change in Triglycerides - (Timeframe: Baseline and 6, 12 and 24 months) Secondary: Change in EQ-5D index - EQ-5D is a generic questionnaire for health related quality of life (HRQL) assessment (Timeframe: Baseline and 6, 12, 18 and 24 months) Secondary: Change in ADDQoL score - ADDQoL is a specific questionnaire for health related quality of life (HRQL) assessment (Timeframe: Baseline and 6, 12, 18 and 24 months) Secondary: Medication administration - Initiation of new drugs or dosage adjustment: insulin, antidiabetics, hypolipidemics, antihypertensives, etc. (Timeframe: Baseline and 6, 12, 18 and 24 months) Secondary: Change in tabacco consumption - (Timeframe: Baseline and 3, 6, 12, 18 and 24 months) Secondary: Acceptability of interventions and satisfaction (INDICA-SATP) - (Timeframe: 24 months) Secondary: Change in Diabetes Knowledge - (Timeframe: Baseline, 12 and 24 months) Secondary: Change in Mediterranean Diet Adherence Screener (MEDAS) score - (Timeframe: Baseline and 6, 12, 18 and 24 months) Secondary: Change in International Physical Activity Questionnarie (IPAQ) score - (Timeframe: Baseline and 6, 12, 18 and 24 months) Secondary: Change in Stait-Trait Anxiety Inventory (STAI) score - (Timeframe: Baseline, 12 and 24 months) Secondary: Change in Beck Depression Inventory - II (BDI-II) score - (Timeframe: Baseline, 12 and 24 months) Secondary: Change in Diabetes Distress Scale (DDS2) score - (Timeframe: Baseline, 12 and 24 months) Secondary: Change in Diabetes Empowerment Scale - Short Form (DES-SF) score - (Timeframe: Baseline, 12 and 24 months) Secondary: Change in Morisky Compliance Scale - (Timeframe: Baseline and 6, 12, 18 and 24 months)",
+        "similarity_score": 0.8203352439016409
+      },
+      {
+        "study_id": "NCT06353568",
+        "title": "Unknown Title",
+        "similarity_score": 0.8201027485668679
+      },
+      {
+        "study_id": "NCT02011620",
+        "title": "Unknown Title",
+        "similarity_score": 0.8195465877663357
+      },
+      {
+        "study_id": "NCT01710774",
+        "title": "Telemedicine Follow-up in Primary Health Care for Diabetes-related Foot Ulcers Primary Outcomes: Primary: healing time for leg ulcer and/or diabetes related foot ulcer - Healing time for leg ulcer and/or diabetes related foot ulcer measured from the time the person is included in the study until the foot ulcer is healed or the study ends (after 12 months). The effect will be measured in terms of hazard ratios (HR) and sub-hazard ratio (SHR) with healing as the endpoint and non-inferiority will be defined as <40% increased healing time in the TM-group, i.e. the lower 95% confidence limit should not be lower than 0.60. (Timeframe: one year) Secondary Outcomes: Secondary: Total number of consultations per patient - Number of consultations from baseline until the foot ulcer has healed (Timeframe: one year) Secondary: sequela directly related to the foot ulcer - From baseline until the foot ulcer has healed sequelae directly related to the foot ulcer: infection, hospitalization, osteomyelitis and vascular surgery during the study (Timeframe: one year) Secondary: Diabetes-related stress - Diabetes-related stress, measured by using the Problem Areas in Diabetes. Measured at baseline and when the ulcer has healed (or the end of the study) (Timeframe: one year) Secondary: Symptoms of anxiety and depression - symptoms of anxiety and depression, measured by using the Hospital Anxiety and Depression Scale at baseline and the end of the study. (Timeframe: one year) Secondary: Nordic Patient Experiences Questionnaire - Patient satisfaction with health care, measured by using the Nordic Patient Experiences Questionnaire. Measured at baseline and the end of the study. (Timeframe: one year) Secondary: EQ-5D - Health status and cost utility, measured by using the EQ-5D from the EuroQol Group at baseline and the end of the study. (Timeframe: one year) Secondary: Sick leave - Sick leave (number of days with a medical certificate) measured by obtaining data from the Norwegian Sick Leave Registry measured from baseline unntil the ulcer is healed (or at the end of the study) (Timeframe: one year) Secondary: A new foot ulcer appears, the incidence of amputation and survival. - The time elapsing before a new foot ulcer appears, the incidence of amputation and survival. (Timeframe: 2 and 3 years after the end of the study)",
+        "similarity_score": 0.817890239464902
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:29:13.042394",
+    "query_number": 9,
+    "category": "Vascular Complications",
+    "description": "Pseudoaneurysm incidence rates",
+    "query": "What is the pooled incidence of pseudoaneurysm formation following transpedal arterial access across randomized trials?",
+    "success": true,
+    "error": null,
+    "processing_time": 79.64523577690125,
+    "studies_analyzed": 8,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe pooled incidence of pseudoaneurysm formation following transpedal arterial access across randomized trials is not directly available from the provided clinical trial data. However, several trials report on the incidence of pseudoaneurysm in various vascular access scenarios, including transradial and hemodialysis access points. Notably, NCT03645720 focuses on pseudoaneurysm as a primary outcome in hemodialysis access, providing specific incidence rates at 6 months.\n\n### Detailed Analysis\n- **NCT02762344** and **NCT05982366** both include the incidence of pseudoaneurysm as part of their study outcomes but focus on transradial access rather than transpedal. These studies provide valuable data on vascular complications associated with radial access.\n- **NCT03645720** specifically investigates the incidence of pseudoaneurysm in arteriovenous grafts used for hemodialysis, offering direct data on this complication over a 6-month period.\n- **NCT00476944** and other related trials (e.g., **NCT01601873**) also mention pseudoaneurysm but in the context of different vascular access points or patient populations, such as those undergoing percutaneous coronary intervention (PCI).\n\n### Study Characteristics\n- The studies vary in design, with some being observational registries (e.g., **NCT02762344**) and others being randomized controlled trials (e.g., **NCT00476944**).\n- Patient populations differ across studies, ranging from those undergoing routine cardiovascular procedures to patients receiving hemodialysis.\n- Interventions include different vascular access techniques and various procedural anticoagulation strategies.\n\n### Key Findings and Patterns\n- Pseudoaneurysm formation is a reported complication across various types of vascular access, not limited to transpedal routes.\n- There is a notable focus on the safety and efficacy of radial access in cardiovascular procedures, with pseudoaneurysm being one of several vascular complications monitored.\n- The incidence rates and definitions of pseudoaneurysm vary, indicating a need for standardized reporting in future studies.\n\n### Practical Implications\n- Patients considering participation in trials involving vascular access should be aware of the potential risk of pseudoaneurysm, among other complications.\n- Researchers should consider the variability in complication reporting and the need for standardized outcome measures when designing vascular access studies.\n- The current state of research highlights an ongoing interest in optimizing vascular access techniques to minimize complications.\n\n### Data Limitations\n- Specific pooled data on the incidence of pseudoaneurysm following transpedal arterial access is lacking in the provided trials.\n- Detailed long-term follow-up data on pseudoaneurysm outcomes post-procedure are limited.\n- Comparative data between different vascular access points (transpedal vs. transradial vs. others) are not extensively covered.\n\nThis analysis underscores the importance of continued research into vascular complications associated with different access points, with a particular need for focused studies on transpedal arterial access to better understand associated risks like pseudoaneurysm formation.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 15.01822805404663,
+      "total_tokens": 5983,
+      "prompt_tokens": 5355,
+      "completion_tokens": 628,
+      "studies_analyzed": 8,
+      "context_length": 7141,
+      "processing_time": 79.64523577690125,
+      "total_trials_fetched": 243,
+      "trials_processed": 243,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=pseudoaneurysm&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "What is the pooled incidence of pseudoaneurysm formation following transpedal arterial access across randomized trials?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 3,
+          "unique_studies_found": 243
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT02762344",
+        "title": "Unknown Title",
+        "similarity_score": 0.8562737397579641
+      },
+      {
+        "study_id": "NCT05982366",
+        "title": "Feasibility and Safety of the Routine Distal Transradial Approach Primary Outcomes: Primary: The primary composite endpoint consisted of rate of access crossover, rate of major adverse cardiovascular events (MACE) and rate of access-related vascular complications. - Access crossover from unsuccessful random arterial access (if the initial access point fails) to another one. Access-related complications after the procedure measured with Doppler Ultrasound (included radial artery occlusion, significant hematoma (EASY classification grade III-V), arteriovenous fistula, pseudoaneurysm, perforation and spasm). MACE definied as myocardial infarction, stroke, urgent revascularization, all-cause death. (Timeframe: up to 24 hours) Secondary Outcomes: Secondary: efficacy endpoint: rate of access crossover - Access crossover from unsuccessful random arterial access (if the initial access point fails) to another one. (Timeframe: during the procedure index) Secondary: safety endpoint: patients discomfort evaluated during access performance - physical discomfort at the time of vascular access performance was assessed using a numerical scale (0/1/2/3 - respectively no/mild/moderate/severe discomfort) (Timeframe: during the procedure) Secondary: efficacy endpoint: duration of access performance - (measured from the time of skin puncture with local anesthetic to the successful sheath insertion confirmed by an outflow of arterial blood) (Timeframe: during the procedure index) Secondary: safety endpoint: access-site vascular complications - it is composed by the rate of radial artery occlusion, significant hematoma (EASY classification grade III-V), arteriovenous fistula, pseudoaneurysm, perforation and spasm; measured with Doppler Ultrasound (Timeframe: after 24 hours post procedure)",
+        "similarity_score": 0.8501932705943029
+      },
+      {
+        "study_id": "NCT03645720",
+        "title": "The Prognosis of Graft Using Plastic Cannula in Hemodialysis Primary Outcomes: Primary: Incidence of pseudoaneurysm - critical puncture related complication in AVG (Timeframe: Incidence of pseudoaneurysm at 6 months) Secondary Outcomes: Secondary: punctutre related complication - hematoma, inflitration, thrombus (Timeframe: Monthly for 6 months.) Secondary: Dialysis adeqaucy - Kt/V by serum test in two groups (Timeframe: Monthly for 6 months.)",
+        "similarity_score": 0.8488878148982286
+      },
+      {
+        "study_id": "NCT05799131",
+        "title": "Unknown Title",
+        "similarity_score": 0.8432728339970784
+      },
+      {
+        "study_id": "NCT00476944",
+        "title": "Unknown Title",
+        "similarity_score": 0.8412018711226101
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:30:40.441130",
+    "query_number": 10,
+    "category": "Severe Complications",
+    "description": "Compartment syndrome reporting",
+    "query": "How many studies report on compartment syndrome rates following transpedal access procedures?",
+    "success": true,
+    "error": null,
+    "processing_time": 87.37427091598511,
+    "studies_analyzed": 6,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe query regarding compartment syndrome rates following transpedal access procedures is specifically addressed in Clinical Trial 1 (NCT04361773). This study includes an evaluation of peripheral perfusion and clinical signs that may indicate compartment syndrome. No other trials in the provided data set directly report on compartment syndrome rates related to transpedal access procedures.\n\n### Detailed Analysis\n**Clinical Trial 1 (NCT04361773)** focuses on the effects of photobiomodulation on soft tissue traumatic injuries, with a secondary outcome measure assessing peripheral perfusion and clinical signs that could indicate compartment syndrome. This assessment is conducted through palpation of distal pulses, pain, and passive extension of fingers, among other clinical evaluations. The study's design includes baseline and ongoing assessments throughout the study completion, averaging 1 month.\n\n### Study Characteristics\n- **Clinical Trial 1 (NCT04361773)**: This is an interventional study examining the impact of photobiomodulation on wound healing and associated complications in lower limb injuries. The study includes detailed secondary outcomes related to pain, inflammation, lesion measurement, infection presence, and peripheral perfusion, which includes an assessment for compartment syndrome.\n- **Other Trials**: The remaining trials (NCT06919289, NCT06711731, NCT05172531, NCT03988231, NCT06333366) do not specifically address compartment syndrome or transpedal access procedures. These studies focus on various other medical assessments and interventions, such as perineural injections and intra-vesical pressure measurements during laparoscopic surgery.\n\n### Key Findings and Patterns\n- **Compartment Syndrome Assessment**: Only Clinical Trial 1 (NCT04361773) includes a direct assessment related to compartment syndrome as part of its evaluation of peripheral perfusion in trauma-related injuries.\n- **Methodological Approaches**: The studies vary significantly in their focus and methodologies, ranging from photobiomodulation therapy to perineural injections and pressure measurements in surgical settings.\n\n### Practical Implications\n- **For Patients**: Patients interested in the risks associated with compartment syndrome following specific procedures like transpedal access should consider the findings from NCT04361773 relevant. However, broader conclusions or comparisons require more targeted research.\n- **For Researchers**: There is a noticeable gap in studies explicitly focusing on compartment syndrome rates following transpedal access procedures. Future research could benefit from focusing on this area to provide clearer insights and guidelines.\n\n### Data Limitations\n- **Specificity of Data**: While NCT04361773 provides some insights into peripheral issues that might relate to compartment syndrome, it does not focus exclusively on transpedal access procedures, limiting the applicability of its findings to the user’s specific query.\n- **Lack of Comparative Studies**: There is a lack of studies directly comparing different approaches or interventions specifically aimed at reducing compartment syndrome rates post-transpedal access, indicating a potential area for further research.\n\nThis analysis highlights the need for more focused clinical trials addressing the specific outcomes related to compartment syndrome following transpedal access procedures to better inform clinical practices and patient care strategies.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 21.061392784118652,
+      "total_tokens": 4555,
+      "prompt_tokens": 3926,
+      "completion_tokens": 629,
+      "studies_analyzed": 6,
+      "context_length": 7785,
+      "processing_time": 87.37427091598511,
+      "total_trials_fetched": 296,
+      "trials_processed": 296,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=compartment%20syndrome&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "How many studies report on compartment syndrome rates following transpedal access procedures?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 3,
+          "unique_studies_found": 296
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT04361773",
+        "title": "Effect of Photobiomodulation on the Treatment of Soft Tissue Traumatic Injuries Primary Outcomes: Primary: Change of the wound healing process using the BATES-JENSEN scale - Evaluation of the healing process of soft tissue injuries in lower limbs associated with tibial fractures caused by high-energy trauma using the variation in the Bates Jensen Wound Assessment Tool scale score. The current version of BWAT contains 13 items that measure size, depth, borders, detachment, type and amount of necrotic tissue, type and amount of exudate, edema and hardening of the peripheral tissue, skin color around the wound, granulation tissue and epithelialization. The measurement scale is of the Likert type, with five points, where 1 indicates the best condition of the wound and 5, the worst condition. The total score is obtained with the sum of all items and can vary from 13 to 65 points, with the highest scores indicating the worst wound conditions. The items size, depth, edges and detachment should be scored as zero when the lesions are healed. The instrument contains two additional items - location and shape - that are not part of the total score. (Timeframe: Baseline and through study completion, an average of 1 month.) Secondary Outcomes: Secondary: Change in Pain Intensity Through VAS - Pain will be assessed by field researchers by applying the visual analogue pain scale (VAS). This scale is represented by a 10 cm line, with the phrases no pain and unbearable pain at its ends. (Timeframe: Baseline and through study completion, an average of 1 month.) Secondary: Consumption of painkillers - The type, dosage and frequency of analgesic consumption will be checked and recorded daily during the medical visit by the field team responsible for the daily medical visit. The results will be passed on to the main researcher for storage, tabulation and interpretation. (Timeframe: Baseline and through study completion, an average of 1 month.) Secondary: Change in serum evolution of inflammatory markers - For laboratory evaluation of the evolution of the inflammatory process and muscle damage, the following tests will be collected: C-reactive protein (CRP), Creatinophosphokinase (CPK), serum urea, creatinine, blood count and coagulogram. These exams will be collected at the time of admission, every three days and when the soft parts are resolved. (Timeframe: Baseline, every three days and through study completion, an average of 1 month.) Secondary: Change in Lesion Area Measurement - The wounds will be photographed along with a cut of graph paper using the camera of the iPhone 8 mobile device, to allow the calibration of the measurement application. The photos will be taken by the doctors who will visit the patient daily at the patient s bed and pass them on to the main researcher. The images will be stored and later evaluated with the aid of the Image J application, a public domain Java image processor and analyzer, developed by Wayne Rasband of the Research Services Branch, National Institute of Mental Health, Bethesda, Maryland. (Timeframe: Baseline and through study completion, an average of 1 month.) Secondary: Time needed for liberation for definitive surgery - Each lesion will be considered solved when it presents healthy granulation tissue, without necrosis or purulent secretion and is, therefore, suitable for primary closure, flap or graft closure or apt to choose healing by second intention. At this point, the protocol will be finalized and this data will be added to the study participant s medical record. (Timeframe: Baseline and through study completion, an average of 1 month.) Secondary: Presence of Infection - Field researchers will collect information regarding the patient s temperature, blood pressure and heart rate every 24 hours. In addition, the wound will be evaluated for the presence of secretion, necrosis, odor and color. If the wound shows signs of infection (purulent secretion, foul odor, areas of superficial or deep necrosis, accompanied or not by systemic signs such as fever, a fall in general condition, lack of appetite), surgical cleaning of the wound will be indicated, and at this moment, collections of samples for culture and photographs before and after surgical debridement will be carried out by field researchers. The patient will be excluded from the study. (Timeframe: Baseline and through study completion, an average of 1 month.) Secondary: Cost effectiveness of Photobiomodulation - The cost-effectiveness establishes whether or not a treatment should be implemented as a therapeutic measure, being calculated by the difference between the cost of two interventions proposed as treatment divided by the difference between its consequences. For the evaluation of the cost-effectiveness of photobiomodulation, the reduction in the score of the Bates Jensen scale will be considered as the outcome. (Timeframe: Baseline and through study completion, an average of 1 month.) Secondary: Change in Peripheral Perfusion through Clinical Evaluation - The peripheral perfusion of the affected limb will also be evaluated clinically by two doctors, through palpation of the distal pulses (pedicle and posterior tibial), pain and passive extension of the fingers (to clinically assess the occurrence of compartment syndrome) capillary filling time, limb, granulation of the wound, occurrence of superficial or deep necrosis. In case of vascular involvement of the limb, joint assessment with the vascular surgery service will be requested and the case will be excluded from the study. (Timeframe: Baseline and through study completion, an average of 1 month.)",
+        "similarity_score": 0.8139603937052895
+      },
+      {
+        "study_id": "NCT06919289",
+        "title": "Unknown Title",
+        "similarity_score": 0.8111816135597671
+      },
+      {
+        "study_id": "NCT06711731",
+        "title": "Unknown Title",
+        "similarity_score": 0.8103336744255208
+      },
+      {
+        "study_id": "NCT05172531",
+        "title": "Unknown Title",
+        "similarity_score": 0.8005984223015279
+      },
+      {
+        "study_id": "NCT03988231",
+        "title": "Unknown Title",
+        "similarity_score": 0.8001153156479892
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:30:52.203760",
+    "query_number": 11,
+    "category": "Follow-up Outcomes",
+    "description": "30-day occlusion rates",
+    "query": "What are the reported rates of pedal artery occlusion at 30-day follow-up in TPAA studies?",
+    "success": false,
+    "error": "No processable chunks created from clinical trials data",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:30:59.640354",
+    "query_number": 12,
+    "category": "Risk Assessment",
+    "description": "Ischemia risk in single-vessel runoff",
+    "query": "Which studies have evaluated the risk of foot ischemia following transpedal access in patients with single-vessel runoff?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:32:24.136607",
+    "query_number": 13,
+    "category": "Access Comparison",
+    "description": "Transpedal vs transradial trials",
+    "query": "How many head-to-head trials compare transpedal vs transradial access for peripheral interventions?",
+    "success": true,
+    "error": null,
+    "processing_time": 84.47846031188965,
+    "studies_analyzed": 9,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nNo head-to-head clinical trials were identified that directly compare transpedal versus transradial access for peripheral interventions based on the provided clinical trial data. The trials listed primarily focus on comparing transradial access to other methods, predominantly transfemoral access, across various cardiovascular and peripheral vascular interventions.\n\n### Detailed Analysis\nThe clinical trials reviewed mainly explore the efficacy, safety, and patient satisfaction of transradial access (TRA) compared to transfemoral access (TFA) in different settings. Notably, none of the trials specifically address a comparison between transpedal and transradial access methods.\n\n- **NCT03163186** and **NCT05851274** compare TRA and TFA in the context of liver cancer embolization and ruptured intracranial aneurysms embolization, respectively.\n- **NCT01433627** focuses on acute coronary syndromes interventions comparing radial and femoral access alongside different anticoagulation strategies.\n- **NCT03943160** examines procedural success in peripheral vascular interventions using TRA.\n\n### Study Characteristics\n- **Study Designs**: The studies vary from randomized controlled trials (e.g., NCT03163186) to observational studies (e.g., NCT04371861). They employ both parallel and single-group assignments.\n- **Phases**: The trials range from early phase 1 to late phase 3 studies, indicating a broad spectrum of developmental stages for these interventions.\n- **Patient Populations**: These trials include patients with conditions such as liver cancer, acute coronary syndromes, and peripheral arterial disease, reflecting a diverse patient demographic.\n\n### Key Findings and Patterns\n- **Transradial Access Focus**: A significant trend is the investigation of TRA's benefits over TFA, highlighting TRA's potential lower complication rates and increased patient comfort.\n- **Methodological Variations**: There is a mix of interventional and observational methodologies, indicating varied levels of evidence and research approaches in studying vascular access techniques.\n\n### Practical Implications\n- **For Patients**: Patients interested in less invasive access methods for cardiovascular or peripheral interventions might consider enrolling in trials focusing on transradial access, given its growing evidence base.\n- **For Researchers**: There is a gap in direct comparisons between transpedal and transradial access methods, suggesting an opportunity for future research in this area.\n\n### Data Limitations\n- **Specific Comparisons Missing**: The absence of direct comparisons between transpedal and transradial access methods limits the ability to conclusively determine the superiority or equivalence of these approaches.\n- **Incomplete Data**: Some trials have unknown statuses or incomplete outcome data, which could affect the comprehensiveness of conclusions drawn from this analysis.\n\nThis analysis underscores the need for continued research into various vascular access techniques, particularly direct comparisons that could inform clinical practice more definitively.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 15.769589900970459,
+      "total_tokens": 4812,
+      "prompt_tokens": 4231,
+      "completion_tokens": 581,
+      "studies_analyzed": 9,
+      "context_length": 7627,
+      "processing_time": 84.47846031188965,
+      "total_trials_fetched": 217,
+      "trials_processed": 217,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=transpedal%20access%20OR%20transradial%20access&query.cond=Peripheral%20Arterial%20Disease&pageSize=50&countTotal=true",
+        "query_analysis": {
+          "original_query": "How many head-to-head trials compare transpedal vs transradial access for peripheral interventions?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 4,
+          "unique_studies_found": 217
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT03163186",
+        "title": "Transradial Versus Transfemoral Arterial Access in Liver Cancer Embolization: Randomized Trial to Assess Patient Outcomes and Satisfaction (BEST ACCESS Trial). Primary Outcomes: Primary: To assess potential patient preference for the performance of hepatic embolization procedures via transradial versus transfemoral approach. - Record of patient response via administered questionnaire as well as stated patient choice in the selection of approach for the third planned procedure of a series. These findings will be correlated with additional objective data regarding complication rates. (Timeframe: December, 2015 through August, 2016) Secondary Outcomes: Secondary: To evaluate complication rates and severity from different modes of access. - This data will be collected from imaging, clinical, and laboratory measures of complications collected at both the one day and follow-up clinic visits. (Timeframe: December, 2015 through August, 2016) Secondary: To assess ancillary procedural and patient satisfaction quality metrics between the two groups. - Procedural details include contrast amount, fluoroscopy time, operator exposure, and cost will also be collected and compared between the two treatment groups. Additional patient quality of life endpoints will be also be compared based on the results of items 1 through 7 on the post-procedure questionnaire. (Timeframe: December, 2015 through August, 2016) Secondary: To identify potential risk factors for complications in transradial approach. - This will be determined by evaluating association of complication data with pre-procedural laboratory and imaging evaluation. (Timeframe: December, 2015 through August, 2016)",
+        "similarity_score": 0.8720985501176524
+      },
+      {
+        "study_id": "NCT05851274",
+        "title": "Transradial Access for Ruptured Intracranial Aneurysms Embolization NCT ID: NCT05851274 Status: UNKNOWN Study Type: INTERVENTIONAL Phases: NA Conditions: Transradial Access Brief Summary: The goal of this clinical trail is to compare the difference between transradial access (TRA) and transfemoral access(TFA) for ruptured intracranial aneurysms embolization. The main question it aims to answer is: whether is TRA not inferior to TFA In the experimental group, the transradial access (TRA) was used, which was to puncture the radial artery and insert a radial sheath to establish a surgical pathway for embolization of the aneurysm; In the control group, transfemoral access (TFA) was used to embolize the aneurysms, which was to puncture the femoral artery and insert the femoral sheath to establish a surgical pathway for embolizing the aneurysms.The two groups of patients received an oral loading dose of aspirin (300mg) plus clopidogrel (300mg) on the day of surgery, while patients who were unable to take orally were given nasal feeding. During the operation, systemic heparinization was performed with a starting dose of 75U/kg intravenous injection, and the injection was halved every 1h until 1000U. After the operation, protamine neutralizing heparin (1mg protamine neutralizing 100U heparin) was used.",
+        "similarity_score": 0.8653477434556289
+      },
+      {
+        "study_id": "NCT01433627",
+        "title": "Minimizing Adverse Haemorrhagic Events by TRansradial Access Site and Systemic Implementation of angioX NCT ID: NCT01433627 Status: UNKNOWN Study Type: INTERVENTIONAL Phases: PHASE3 Conditions: Acute Coronary Syndromes, STEMI, NSTEMI Brief Summary: This protocol describes a study to compare intended trans-radial versus trans-femoral intervention and bivalirudin monotherapy versus current European standard of care consisting of unfractionated heparin (UFH) plus provisional use of glycoprotein IIb/IIIa inhibition via the use of one of the three available agents on the market (e.g. abciximab, tirofiban or eptifibatide) in patients ( 18 years) with ACS, that are intended for an invasive management strategy. This study will be conducted in compliance with Good Clinical Practices (GCP) including the Declaration of Helsinki and all applicable regulatory requirements.",
+        "similarity_score": 0.8628684719198779
+      },
+      {
+        "study_id": "NCT03943160",
+        "title": "Radial accEss for nAvigation to Your CHosen Lesion for Peripheral Vascular Intervention: REACH PVI Primary Outcomes: Primary: Procedural Success: - Successful completion of OA (orbital atherectomy) treatment of target lesion via transradial access without serious transradial access (TRA) related events. Serious TRA related events consist of: Serious TRA site bleeding, serious TRA site hematoma, serious radial artery spasm, serious hand ischemia, stroke, Transient Ischemic Attach (TIA), Serious nerve damage, perforation, TRA site pseudoaneurysm. (Timeframe: Participants were followed from the baseline procedure through the first site-specific standard of care follow-up visit (7-45 days post-procedure)) Secondary Outcomes: Secondary: Treatment Success: - Treatment success is defined as <50% residual stenosis post-procedure and without significant angiographic complications without stent placement, or <30% residual stenosis post-procedure and without significant angiographic complications with stent placement. (Timeframe: Participants were followed from baseline procedure through hospital discharge, an expected average of less than 24 hours)",
+        "similarity_score": 0.8604687508704265
+      },
+      {
+        "study_id": "NCT06490848",
+        "title": "Comparing the Safety and Efficacy of Cerebral TFA and TRA Methods Detailed Description: Transradial diagnostic angiography in cardiovascular disease given lower vascular complications. However, neuroendovascular surgeons have not widely adopted the transradial approach for diagnostic approach and interventional procedures. This study aims to compare the efficacy, safety, and patient satisfaction with the transradial approach versus the transfemoral approach in diagnostic cerebral angiography.",
+        "similarity_score": 0.8596649968636748
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:33:51.951612",
+    "query_number": 14,
+    "category": "Procedural Efficiency",
+    "description": "Procedure time comparisons",
+    "query": "What are the reported procedure times for transpedal access vs traditional retrograde femoral access in infrapopliteal interventions?",
+    "success": true,
+    "error": null,
+    "processing_time": 87.78680300712585,
+    "studies_analyzed": 5,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe clinical trials reviewed do not explicitly provide comparative procedure times for transpedal access versus traditional retrograde femoral access in infrapopliteal interventions. However, they offer detailed descriptions of the procedural techniques involved in each access method, which can indirectly inform about potential differences in procedural complexity and duration.\n\n### Detailed Analysis\n- **NCT05436405** focuses on transpedal access for endovascular revascularization in complex infra-popliteal lesions. It describes the use of a 21-gauge needle or a micropuncture access set, with fluoroscopy or road mapping to facilitate access.\n- **NCT01071460** discusses retrograde common femoral cross-over access for stenting, indicating a standard procedural approach that might be comparable in duration to other femoral access interventions but does not specify exact times.\n\n### Study Characteristics\n- **Study Designs**: Both NCT05436405 and NCT01071460 are interventional with a single-group allocation. NCT05436405 is non-randomized, focusing on treatment, while NCT01071460 does not specify its randomization status.\n- **Patient Populations**: Both studies involve patients with critical limb ischemia or peripheral artery disease requiring revascularization or stenting.\n- **Intervention Details**: NCT05436405 uses ultrasound and fluoroscopy-guided transpedal access. NCT01071460 employs a more traditional stenting technique via femoral access.\n\n### Key Findings and Patterns\n- **Methodological Variations**: Transpedal access (NCT05436405) might be associated with more specialized techniques and potentially longer procedure times due to the precision required in accessing smaller vessels. Traditional femoral access (NCT01071460) is described as using routine stenting protocols, which might suggest a more streamlined procedure.\n- **Technological Utilization**: Enhanced imaging techniques such as fluoroscopy and ultrasound play crucial roles in modern vascular interventions, potentially influencing the efficiency and safety of these procedures.\n\n### Practical Implications\n- **For Patients**: Patients seeking less invasive options or those with previous unsuccessful femoral interventions might consider trials like NCT05436405 exploring alternative access sites.\n- **For Researchers**: Understanding the nuances in procedural times and outcomes between different vascular access techniques can guide future studies and innovations in peripheral vascular intervention technologies.\n\n### Data Limitations\n- The specific procedure times for each method were not detailed in the trial records, which limits direct comparisons of efficiency between transpedal and retrograde femoral access.\n- Additional data on patient recovery times and long-term outcomes post-intervention would be beneficial for a more comprehensive analysis.\n\nIn summary, while direct data on procedure times are lacking, the available information suggests that transpedal access involves specialized techniques that may affect its duration compared to traditional femoral access. Further research explicitly measuring these times would be valuable for clinical practice.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 15.72449254989624,
+      "total_tokens": 4971,
+      "prompt_tokens": 4386,
+      "completion_tokens": 585,
+      "studies_analyzed": 5,
+      "context_length": 7982,
+      "processing_time": 87.78680300712585,
+      "total_trials_fetched": 162,
+      "trials_processed": 162,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.intr=transpedal%20access&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "What are the reported procedure times for transpedal access vs traditional retrograde femoral access in infrapopliteal interventions?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 5,
+          "unique_studies_found": 162
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT05436405",
+        "title": "Trans-pedal Access for Endovascular Revascularization in Complex Infra-popliteal Lesions in Critically Ischemic Limb Interventions: PROCEDURE - Trans-pedal access for endovascular revascularization in complex infra-popliteal lesions in critically ischemic limb: Briefly, conventional femoral access will be conducted in the traditional manner and involve the sheath while the catheter was introduced close to the proximal degree of lesion. Access to a pedal vessel: Using a 21-guage needle or by utilizing a micro puncture access set. Such vessel is recognized using the US probe. such approach performed in 54 patients.a fluoroscopy might enable a good possibility for efficient access. In addition, it was suggested to utilize micro-puncture needle supposed to have echogenic pattern as the tip of regular needle is very hard to visualize utilizing the duplex US probe. Also, use of straight fluoroscopy or road mapping may offer a better chance for successful access, this method is done in 31 cases . Another method is open method (cut down) on tibial vessels, this method is done in 11 cases. Primary Purpose: TREATMENT Intervention Model: SINGLE_GROUP Allocation: NA",
+        "similarity_score": 0.8830714096412557
+      },
+      {
+        "study_id": "NCT01071460",
+        "title": "Evaluation of Efficacy and Safety of the FlexStent Self-Expanding Stent System Interventions: DEVICE - FlexStent Femoropopliteal Self-Expanding Stent System: Peri-procedural management will be no different to routine SFA/Popliteal Artery intervention Standard medical therapy Procedural techniques will be identical to routine protocols for SFA/Popliteal Artery stenting. technique suggested: Contralateral retrograde common femoral cross-over access or antegrade access Target lower limb arteries fully imaged angiogram. with measurement of SFA/Popliteal Artery target lesion length and normal vessel diameter immediately above and below target lesion Pre-stenting balloon dilatation of target lesion in all total occlusions and critical stenosis Deployment of an appropriately sized FlexStent to cover target lesion Post-stent balloon dilate stent using a semi-compliant angioplasty balloon to enable accurate post-dilatation of stent to target diameter Post stenting angiography assessing target lesion parameters, run-off vessel patency and complications Primary Purpose: TREATMENT Intervention Model: SINGLE_GROUP Allocation: NA",
+        "similarity_score": 0.8504529075432411
+      },
+      {
+        "study_id": "NCT03946072",
+        "title": "Transseptal vs Retrograde Aortic Ventricular Entry to Reduce Systemic Emboli Interventions: PROCEDURE - Transseptal Aortic Approach Catheter Ablation Procedure: The transseptal approach entails obtaining femoral venous access, and, guided by fluoroscopy and intra-cardiac ultrasound, starting with a transseptal needle or radio frequency (RF) device inside the dilator of a long sheath; pulling down until the fossa ovalis in the interatrial septum is engaged on both fluoroscopy and intracardiac echo imaging; once on the left side, the long sheath is advanced over the transseptal needle, the needle and dilator are removed, and the ablation catheter can then be advanced across the mitral valve into the left ventricle. PROCEDURE - Retrograde Aortic Approach Catheter Ablation Procedure: The retrograde aortic approach entails obtaining femoral arterial access and leaving a sheath in the femoral artery. Under fluoroscopy, an ablation catheter is then advanced up the ascending aorta where the catheter tip is curved using an internal mechanism controlled on the handle of the catheter to form a large loop (to prevent the tip from traveling down a coronary artery and causing trauma such as a dissection); the curved loop is advanced around the aortic arch and down the ascending aorta. To cross the aortic valve with this loop, the catheter is typically torqued in various directions until it falls through the aortic valve and into the left ventricle. Primary Purpose: PREVENTION Intervention Model: PARALLEL Allocation: RANDOMIZED",
+        "similarity_score": 0.8481212361188308
+      },
+      {
+        "study_id": "NCT02209350",
+        "title": "Study of the AFB and Stenting of the Iliac Arteries Interventions: PROCEDURE - Aorta-femoral bypass: Access to the femoral artery is performed through a lateral incision from the inguinal ligament. Operations technique on the abdominal aorta. Aorta-femoral bypass. Proximal anastomosis between the prosthesis and aorta is applied in the sort of end-to-side in the reconstruction by shunting. After jaws prosthesis conduction on hip distal anastomosis is formed with twisting controlling. In a case of preserved antegrade blood flow the femoral artery anastomosis applied in the sort of end-to-side . If antegrade flow is absent, anastomosis is formed in the sort of end to end . PROCEDURE - Recanalization and stenting of aorta-iliac segment: Standard endovascular access is performed under local anesthesia and affected arterial segment is visualized. Stenosis or artery occlusion is passed with hydrophilic guide. In case of occlusion transluminal or subintimal (often mixed ) artery recanalization is performed. To maximize the preservation of the affected artery initial patency, occlusion recanalization is performed by ante-and retrograde accesses. Then stenosis or occlusion predilation is performed with balloon catheter (balloon catheter diameter is smaller than the affected artery diameter for 1-2 mm). After control angiography stent is installed in the aorta-iliac area throughout the lesion (lesion diameter corresponds to the stenotic arteries diameter). DRUG - Therapy: aspirin and clopidogrel: prescribed long-term aspirin (100 mg daily) and clopidogrel for 3 months (75 mg daily). Primary Purpose: TREATMENT Intervention Model: PARALLEL Allocation: RANDOMIZED",
+        "similarity_score": 0.8449377680115577
+      },
+      {
+        "study_id": "NCT02580084",
+        "title": "Clinical Study of the Aorta-femoral Bypass and Hybrid Intervention and the Iliac Arteries With Stenting and Plasty of the Common Femoral Artery Effectiveness in Patients With the Iliac Segment and Femoral Artery Occlusive Disease (TASC C, D) Primary Outcomes: Primary: Safety assessment in the 30-day period: clinically significant bleeding, hematoma, infection of the prosthesis, infection of the postoperative wound, lymphorrhea, renal failure, myocardial infarction, stroke, mortality, thrombosis of the operated segment - Identification of serious adverse events requiring correction of therapy or surgery. Will be used physiological parameter and questionnaire. Classification of bleeding will be used GUSTO (Severe or moderate) (Timeframe: 30 days) Primary: Evaluation of efficiency: primary patency, secondary patency success of procedures, length of hospital stay - If a damage confirmed by duplex is detected, repeat intervention is performed on the side of the examined segment (Timeframe: 30 days) Primary: Evaluation of efficiency: success of procedures - Technical feasibility of the procedure (Timeframe: 30 days) Secondary Outcomes: Secondary: mortality - (Timeframe: during the whole period of observation. Observation is 36 month after surgery) Secondary: stroke - (Timeframe: during the whole period of observation. Observation is 36 month after surgery) Secondary: myocardial infarction - (Timeframe: during the whole period of observation. Observation is 36 month after surgery) Secondary: limb salvage - (Timeframe: in the early postoperative period. Surveillance is 36 month after surgery) Secondary: infection of the prosthesis - (Timeframe: during the whole period of observation. Observation is 36 month after surgery)",
+        "similarity_score": 0.8422537254272613
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-01T17:34:03.257075",
+    "query_number": 15,
+    "category": "Radiation Safety",
+    "description": "Radiation exposure comparisons",
+    "query": "Which studies have compared radiation exposure between transpedal and femoral access approaches?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:34:11.620630",
+    "query_number": 16,
+    "category": "Health Economics",
+    "description": "Cost-effectiveness analyses",
+    "query": "How many trials have evaluated cost-effectiveness of transpedal vs alternative access routes?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:34:18.448350",
+    "query_number": 17,
+    "category": "Intervention Devices",
+    "description": "Balloon catheter size utilization",
+    "query": "What balloon catheter sizes (2.0mm, 2.5mm, 3.0mm) are most commonly used in transpedal angioplasty studies?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:34:27.248694",
+    "query_number": 18,
+    "category": "Drug-Coated Devices",
+    "description": "DCB usage in transpedal access",
+    "query": "How many studies have evaluated drug-coated balloons via transpedal access for infrapopliteal disease?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:34:35.195989",
+    "query_number": 19,
+    "category": "Atherectomy",
+    "description": "Atherectomy device utilization",
+    "query": "Which trials have assessed the use of atherectomy devices through transpedal arterial access?",
+    "success": false,
+    "error": "No data could be fetched from any generated URLs",
+    "processing_time": null,
+    "studies_analyzed": 0,
+    "quality_score": null,
+    "answer": null,
+    "metadata": null,
+    "studies": []
+  },
+  {
+    "timestamp": "2025-06-01T17:35:58.145074",
+    "query_number": 20,
+    "category": "Complex Lesions",
+    "description": "CTO crossing success rates",
+    "query": "What are the reported crossing rates for chronic total occlusions using transpedal access in published studies?",
+    "success": true,
+    "error": null,
+    "processing_time": 82.93503284454346,
+    "studies_analyzed": 4,
+    "quality_score": 1.0,
+    "answer": "### Executive Summary\nThe clinical trial data from NCT01884701 provides insights into the use of the ENABLER-P Catheter System for crossing chronic total occlusions (CTOs) in the femoropopliteal artery. The primary outcome measures include the advancement of the guidewire into or through the CTO and subsequent achievement of distal vessel guidewire position. However, specific crossing rates for transpedal access in chronic total occlusions are not detailed in the available data.\n\n### Detailed Analysis\n**NCT01884701** focuses on evaluating the ENABLER-P Catheter System's efficacy in crossing CTOs during endovascular interventions for femoral-popliteal occlusive disease. The primary outcomes are safety endpoints (major adverse events, perforations, embolization, dissections) and procedural success in guidewire advancement through CTOs. The study was withdrawn before completion, limiting the availability of results on crossing rates or long-term outcomes.\n\n**NCT05971394** investigates the IBS Titan Sirolimus-eluting Iron Bioresorbable Peripheral Scaffold System, primarily measuring efficacy failure and major adverse events. While it addresses peripheral occlusions, it does not specifically focus on transpedal access or provide crossing rates for CTOs.\n\n### Study Characteristics\n- **NCT01884701**: An interventional, single-arm, non-randomized, multi-center study in Phase 3, focusing on femoropopliteal occlusive disease using the ENABLER-P Catheter System.\n- **NCT05971394**: A study on a bioresorbable scaffold system targeting infrapopliteal lesions, assessing various efficacy and safety outcomes over multiple timeframes.\n\n### Key Findings and Patterns\n- Both studies target peripheral arterial occlusions but utilize different devices and approaches.\n- NCT01884701 specifically aims to evaluate a device's ability to cross CTOs but was withdrawn, indicating potential challenges or changes in research focus.\n- NCT05971394 provides broader insights into peripheral artery disease treatments but does not focus on transpedal access or specific crossing rates.\n\n### Practical Implications\nFor patients seeking treatment for femoropopliteal occlusive disease, understanding the specific devices and their intended outcomes is crucial. Researchers should note the withdrawal of NCT01884701 and consider investigating factors that might influence such outcomes in future studies.\n\n### Data Limitations\n- The withdrawal of NCT01884701 limits comprehensive understanding and applicability of the ENABLER-P Catheter System's effectiveness in real-world settings.\n- Specific crossing rates for transpedal access in CTOs are not detailed, indicating a gap in available data that could be crucial for clinical decision-making and further research.\n\nFurther research is needed to provide more definitive data on the success rates and safety of transpedal access methods in treating chronic total occlusions, particularly in the femoropopliteal segment.",
+    "metadata": {
+      "model_used": "gpt-4-turbo",
+      "generation_time": 14.982672452926636,
+      "total_tokens": 4170,
+      "prompt_tokens": 3577,
+      "completion_tokens": 593,
+      "studies_analyzed": 4,
+      "context_length": 4901,
+      "processing_time": 82.93503284454346,
+      "total_trials_fetched": 288,
+      "trials_processed": 288,
+      "chunks_created": 250,
+      "chunks_vectorized": 250,
+      "relevant_chunks": 12,
+      "fetch_metadata": {
+        "source_url": "https://clinicaltrials.gov/api/v2/studies?query.term=chronic%20total%20occlusion&pageSize=100&countTotal=true",
+        "query_analysis": {
+          "original_query": "What are the reported crossing rates for chronic total occlusions using transpedal access in published studies?",
+          "url_generation_strategy": "content-rich-diversified",
+          "urls_attempted": 5,
+          "urls_successful": 4,
+          "unique_studies_found": 288
+        }
+      }
+    },
+    "studies": [
+      {
+        "study_id": "NCT01884701",
+        "title": "Accessing Peripheral Occluded LesiOns II (APOLO-II) Primary Outcomes: Primary: The primary safety endpoint of this study is to evaluate in hospital and 30 day major adverse events ( MAEs ), clinically significant perforations, clinically significant embolization and/or Grade C or greater dissections. - (Timeframe: 30 days (+/-7 days)) Primary: Advancement of the ENABLER-P supported guidewire into or through the CTO in native femoropopliteal artery and subsequent achievement of distal vessel guidewire position with any conventional guidewire. - (Timeframe: 30 days (+/-7 days)) Secondary Outcomes:",
+        "similarity_score": 0.8477483534856144
+      },
+      {
+        "study_id": "NCT05971394",
+        "title": "IBS Titan Sirolimus-eluting Iron Bioresorbable Peripheral Scaffold System Clinical Trial Primary Outcomes: Primary: Freedom from Primary Efficacy Failure - Defined as freedom from the composite of total occlusion of target lesion and clinically driven target lesion revascularization (CD-TLR), and freedom from major amputation. (Timeframe: 6 months) Secondary Outcomes: Secondary: Major adverse event (MAE) - Defined as a composite of all-cause mortality, CD-TLR and major amputation of target limb. (Timeframe: 1 month, 6 months, 12 months) Secondary: Rate of Device success - Stent level analysis, based on single stent. Defined as the achievement of successful delivery, deployment of stent at the intended infrapopliteal target site(s) and successful withdrawal of the delivery catheter. (Timeframe: Immediately post-procedure) Secondary: Rate of Technical success - Defined as the restoration of blood flow in the target vessel and angiogram indicates the residual stenosis <30%. (Timeframe: Immediately post-procedure) Secondary: Rate of Procedural success - Defined as the combination of technical success, device success, and absence of procedural complications. (Timeframe: Immediately post-procedure) Secondary: Incidence of Target lesion restenosis - Defined as peak systolic velocity ratio (PSVR) >2.4 by DUS. (Timeframe: 1 month, 6 months, 12 months) Secondary: Change in ankle-brachial index (ABI) compared to baseline (before treatment) - Change in Ankle Brachial Index (ABI) from pre-procedure. Larger values mean a better outcome. The ABI is the systolic pressure at the ankle, divided by the systolic pressure at the arm. (Timeframe: 1 month, 6 months, 12 months) Secondary: Change in Rutherford Category compared to baseline (before treatment) - Categories and Clinical Description (higher scores mean a worse outcome): Category 0 = Asymptomatic, no hemodynamically significant occlusive disease, Category 1 = Mild claudication, Category 2 = Moderate claudication, Category 3 = Severe claudication, Category 4 = Ischemic rest pain, Category 5 = Minor tissue loss, non-healing ulcer, or focal gangrene with diffuse pedal ischemia, Category 6 = Major tissue loss, extending above transmetatarsal level, functional foot no longer salvageable. (Timeframe: 1 month, 6 months, 12 months)",
+        "similarity_score": 0.8261707731395229
+      },
+      {
+        "study_id": "NCT05568927",
+        "title": "Unknown Title",
+        "similarity_score": 0.8125496968246603
+      },
+      {
+        "study_id": "NCT01213589",
+        "title": "The VIRTUE Post Marketing Surveillance Registry Primary Outcomes: Primary: Disease-, Procedure- or Device-related Mortality at 12 Months Post-procedure - Disease, device or procedure-related mortality at 12 months post-procedure, defined as any death related to the device, to the disease or to the surgical procedure occurring in the period of 365 days following the day of the implant procedure. (Timeframe: 12 months post-procedure) Secondary Outcomes: Secondary: Safety - All causes mortality Disease-, procedure- or device-related mortality (Timeframe: 30 days or at discharge, 3/6/12/24/36 months) Secondary: Efficacy/Performance - - Technical Success Technical success, defined as a composite of (i) successful introduction and deployment of at least one Valiant Thoracic Stent Graft at the intended location, (ii) successful coverage of the proximal entry tear, (iii) no immediate conversion to open surgery during the same intervention, (iv) absence of death within 24 hours post-procedure, and (v) the absence of significant graft twist, kink or obstruction by intra-operative measurements (Timeframe: 30 days or at discharge, 3/6/12/24/36 months) Secondary: Freedom of Re-intervention - Kaplan-Meier estimate of freedom from secondary procedures by clinical group. (Timeframe: 30 days or at discharge, 3/6/12/24/36 months) Secondary: Freedom From Disease-, Procedure- or Device-related Major Complications - Complications were assigned a severity score (according SVS scores) so that degrees of morbidity can be assessed and compared. A moderate complication indicates the need for significant intervention, prolongation of hospitalization more than 24 hours, and at most, minor permanent disability that does not preclude normal daily activity. A severe complication necessitates major surgical or medical intervention, may be associated with prolonged convalescence, is usually accompanied by prolonged or permanent disability, and may result in death. Both moderate and severe complications are considered as major complications. Kaplan-Meier estimate of freedom from disease-, procedure-, or device-related major complications by clinical group. (Timeframe: through 36 months) Secondary: Freedom From Disease-, Procedure-, or Device-related Severe Complications - Complications were assigned a severity score (according SVS scores) so that degrees of morbidity can be assessed and compared. A severe complication necessitates major surgical or medical intervention, may be associated with prolonged convalescence, is usually accompanied by prolonged or permanent disability, and may result in death. Kaplan-Meier estimate of freedom from disease-, procedure-, or device-related severe complications (Timeframe: through 36 months) Secondary: Clinical Success - Clinical success was defined as: (i) successful introduction and deployment of the Valiant Thoracic Stent Graft at the intended location; (ii) successful coverage of the proximal entry tear; (iii) no immediate conversion to open surgery;(iv) absence of surgical open repair or endovascular re-intervention; (v) absence of death related to aortic disease or treatment; (vi) absence of graft thrombosis, obstructions, twists or kinks; (vii) absence of graft migration;(viii) absence of graft integrity failure; (ix) at the level of the ostium of the LSA, the more proximal entry tear of the dissection, the largest section of the thoracic aorta, and at the first image/slice available with upper part of the liver: Absence of true lumen decrease in diameter ( 5 mm is significant) Absence of increase in total aortic diameter ( 5 mm is significant) (Timeframe: through 36 months)",
+        "similarity_score": 0.811385099400071
+      }
+    ]
+  }
+]

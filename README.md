@@ -148,12 +148,181 @@ if __name__ == "__main__":
 
 ---
 
+
 ## 📝 Output: Science, Structured
 
 - **JSON**: User query, pipeline steps, final response, processing time, error (if any).
 - **Citations**: Every claim, every number, every time.
 - **Confidence Scores**: Know what the AI knows (and what it doesn't).
 - **Bullet Points**: For humans. For machines. For science.
+
+---
+
+## 🖥️ Frontend Integration: Extracting the Magic
+
+> **No backend changes needed!** Here’s how your frontend should extract and render the Inclusion/Exclusion/Similarity blocks, citations, and all viz-friendly metadata from the API response.
+
+### 📦 What’s in the API Response?
+
+**Use these JSONPaths from the root of the API response:**
+
+- **Parsed payload (use this first if present):**
+        - Inclusion: `$.data.final_response.comprehensive_answer_parsed.Inclusion` *(string, markdown)*
+        - Exclusion: `$.data.final_response.comprehensive_answer_parsed.Exclusion` *(string, markdown)*
+        - Similarity: `$.data.final_response.comprehensive_answer_parsed.Similarity` *(array of {CT_ID, percentage_similarity})*
+- **If parsed block is missing, fall back to model’s JSON string:**
+        - Raw JSON string: `$.data.final_response.comprehensive_answer` *(stringified JSON)*
+                - Parse it and read the same three keys.
+- **Citations (for hover/collapsible details):**
+        - Citation text list: `$.data.pipeline_steps.criteria_analysis.citations` *(array of strings — already formatted, keep “as-is”)*
+        - Optional local doc context for tooltips: `$.data.pipeline_steps.local_data_retrieval.results` *(array with `pdf_name`, `page_number`, `page_summary`, `similarity_score`)*
+- **Useful meta for UI:**
+        - User query: `$.data.user_query`
+        - Confidence (criteria agent): `$.data.pipeline_steps.criteria_analysis.confidence`
+        - Chunks used: `$.data.final_response.context_used.local_data_chunks`
+        - Total citations count: `$.data.final_response.context_used.total_citations`
+        - Model id: `$.data.final_response.model_used`
+        - Processing time: `$.data.processing_time`
+
+---
+
+### 📝 TypeScript Data Contracts
+
+```ts
+export type SimilarityItem = {
+        CT_ID: string;
+        percentage_similarity: number; // 0–100
+};
+
+export type IePayload = {
+        Inclusion: string;  // markdown bullets (may contain sub-bullets)
+        Exclusion: string;  // markdown bullets (may contain sub-bullets)
+        Similarity: SimilarityItem[];
+};
+
+export type ApiEnvelope = {
+        success: boolean;
+        data: any; // your full server payload
+};
+```
+
+---
+
+### 🧩 Extraction Logic (Robust, Zero Backend Changes)
+
+```ts
+function extractIePayload(api: ApiEnvelope): {
+        ie: IePayload | null;
+        citations: string[];
+        meta: {
+                userQuery?: string;
+                confidence?: number;
+                chunks?: number;
+                totalCitations?: number;
+                modelUsed?: string;
+                processingTime?: number;
+        };
+        errors: string[];
+} {
+        const errors: string[] = [];
+        const d = api?.data ?? {};
+        const fr = d.final_response ?? {};
+        let Inclusion: string | undefined;
+        let Exclusion: string | undefined;
+        let Similarity: SimilarityItem[] | undefined;
+
+        // 1) Prefer parsed
+        const parsed = fr.comprehensive_answer_parsed;
+        if (parsed?.Inclusion && parsed?.Exclusion && parsed?.Similarity) {
+                Inclusion = String(parsed.Inclusion);
+                Exclusion = String(parsed.Exclusion);
+                Similarity = parsed.Similarity as SimilarityItem[];
+        } else {
+                // 2) Fallback: parse the JSON string the model returned
+                const raw = fr.comprehensive_answer;
+                if (typeof raw === "string") {
+                        try {
+                                const obj = JSON.parse(raw);
+                                Inclusion = obj?.Inclusion;
+                                Exclusion = obj?.Exclusion;
+                                Similarity = obj?.Similarity;
+                        } catch (e) {
+                                errors.push("Failed to parse comprehensive_answer JSON string.");
+                        }
+                }
+        }
+
+        // Validate minimal structure
+        const ie: IePayload | null =
+                Inclusion && Exclusion && Array.isArray(Similarity)
+                        ? { Inclusion, Exclusion, Similarity: Similarity! }
+                        : null;
+
+        // Citations (render exactly as provided)
+        const citations: string[] =
+                d?.pipeline_steps?.criteria_analysis?.citations ?? [];
+
+        // Meta for viz / headers
+        const meta = {
+                userQuery: d?.user_query,
+                confidence: d?.pipeline_steps?.criteria_analysis?.confidence,
+                chunks: fr?.context_used?.local_data_chunks,
+                totalCitations: fr?.context_used?.total_citations,
+                modelUsed: fr?.model_used,
+                processingTime: d?.processing_time,
+        };
+
+        return { ie, citations, meta, errors };
+}
+```
+
+---
+
+### 🎨 Rendering Guidance
+
+- **Inclusion/Exclusion**: Render the strings as **markdown**. They already contain bullets, sub-bullets, and inline NCT citations like `[NCT06108414]`. Don’t alter the text; just pass into your markdown renderer.
+- **CITATION_TEXT**: Show `citations[]` as a collapsible “Citations” panel or inline “footnotes”. Keep them **verbatim** (already formatted).
+- **Similarity Viz**:
+        - Use `ie.Similarity` to render bars or chips:
+                - Label: `CT_ID`
+                - Value: `percentage_similarity` (0–100)
+        - Sort descending before rendering.
+
+Example bar-prep:
+```ts
+const bars = (ie?.Similarity ?? [])
+        .slice()
+        .sort((a,b) => b.percentage_similarity - a.percentage_similarity)
+        .map(s => ({ label: s.CT_ID, value: s.percentage_similarity }));
+```
+
+- **Tooltips**: Map `CT_ID` to any matching citation strings (simple `.find(str => str.includes(CT_ID))`) or show all citations in a modal.
+
+---
+
+### ⚠️ Edge Cases & Fallbacks
+
+1. **Parsed missing, raw parse fails**
+         - Show a graceful error banner using `errors[]`, and display the top-level `fr.comprehensive_answer` as plain text so users still see something.
+2. **No Similarity array**
+         - Render Inclusion/Exclusion normally; hide the viz panel.
+3. **Empty citations**
+         - Hide the “Citations” section.
+4. **Markdown safety**
+         - Use a markdown component that supports lists and code blocks; do not sanitize away square brackets (they are the inline NCT cites).
+
+---
+
+### ✅ Quick Checklist for Your FE Dev
+
+- [ ] Read `IePayload` via `comprehensive_answer_parsed`, else parse `comprehensive_answer`.
+- [ ] Render `Inclusion` & `Exclusion` as markdown (no mutation).
+- [ ] Show `citations` exactly as provided.
+- [ ] Visualize `Similarity` as a sorted bar chart/chips.
+- [ ] Use `meta` to display small header: model, confidence, chunks, time.
+- [ ] Handle fallbacks (errors array).
+
+That’s it — no backend edits required. Your frontend is now ready to render clinical trial insights like a pro!
 
 ---
 
@@ -216,4 +385,4 @@ Open an issue, start a discussion, or send a carrier pigeon. (Carrier pigeons no
 
 ---
 
-> **Note:** This project is for research and educational purposes. It *is* for building the future. Join us.
+> **Note:** This project is for research and educational purposes. Not for clinical decision-making or patient care. But it *is* for building the future. Join us.

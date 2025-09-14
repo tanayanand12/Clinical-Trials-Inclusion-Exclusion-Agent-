@@ -1,0 +1,39 @@
+
+TRANSPEDAL ARTERIAL ACCESS (TPAA) CLINICAL TRIALS ANALYSIS SUMMARY
+================================================================
+
+Analysis Session Information:
+- Start Time: 2025-06-01 17:18:55
+- End Time: 2025-06-01 17:35:58
+- Total Duration: 1023.12 seconds (17.1 minutes)
+
+Query Processing Results:
+- Total Queries Processed: 20
+- Successful Analyses: 11
+- Failed Analyses: 9
+- Success Rate: 55.0%
+
+Pipeline Status:
+- fetcher: ✓ ACTIVE
+- chunker: ✓ ACTIVE
+- vectorizer: ✓ ACTIVE
+- context_extractor: ✓ ACTIVE
+- rag_module: ✓ ACTIVE
+
+Research Categories Analyzed:
+- Comparative Effectiveness
+- Equipment Analysis  
+- Complications Assessment
+- Patient Demographics
+- Procedural Efficiency
+- Device Utilization
+- Follow-up Outcomes
+
+Log Files Generated:
+- Main Log: tpaa_analysis_logs/tpaa_analysis_20250601_171855.log
+- Detailed Log: tpaa_analysis_logs/tpaa_detailed_20250601_171855.log
+- Results JSON: tpaa_analysis_logs/tpaa_results_20250601_171855.json
+- Summary Report: tpaa_analysis_logs/tpaa_summary_20250601_171855.txt
+
+Analysis Complete: 2025-06-01 17:35:58
+================================================================
