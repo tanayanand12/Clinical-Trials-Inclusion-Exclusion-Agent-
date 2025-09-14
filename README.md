@@ -216,4 +216,4 @@ Open an issue, start a discussion, or send a carrier pigeon. (Carrier pigeons no
 
 ---
 
-> **Note:** This project is for research and educational purposes. Not for clinical decision-making or patient care. But it *is* for building the future. Join us.
+> **Note:** This project is for research and educational purposes. It *is* for building the future. Join us.
