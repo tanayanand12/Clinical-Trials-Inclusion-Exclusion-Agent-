@@ -26,7 +26,7 @@ class ClinicalTrialsRAGPipeline:
     
     def __init__(self, 
                  openai_client=None or  openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY")),
-                 model_name: str = "o3",
+                 model_name: str = os.getenv("MODEL_ID_GPT5") or "gpt-4o",
                  embedding_model: str = "text-embedding-ada-002",
                  max_trials: int = 20,
                  max_chunks_per_trial: int = 10,

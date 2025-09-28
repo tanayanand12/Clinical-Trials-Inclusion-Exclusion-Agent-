@@ -394,6 +394,7 @@ HARD LIMITATIONS:
                 # top_p=0.9,
                 # frequency_penalty=0.1,
                 # presence_penalty=0.1
+                reasoning_effort= "minimal"
             )
             
             generation_time = time.time() - start_time

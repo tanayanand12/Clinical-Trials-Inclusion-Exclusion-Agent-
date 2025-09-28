@@ -274,6 +274,7 @@ class ComprehensiveRAGPipelineAgent:
                 ],
                 # temperature=0.3,
                 # max_tokens=1500
+                reasoning_effort="minimal",
                 response_format={"type": "json_object"}  # <- enforce JSON
             )
             
