@@ -4,7 +4,7 @@ import logging
 import openai # type: ignore
 from datetime import datetime
 from dotenv import load_dotenv # type: ignore
-from agent_base import AgentBase
+from .agent_base import AgentBase
 
 # Import the clinical trials pipeline
 from src.clinical_trials.clinical_trials_agent_wrapper import ClinicalTrialsRAGPipeline
